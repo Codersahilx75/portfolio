@@ -49,7 +49,7 @@ const services = [
 
 function Services() {
   return (
-    <section id="services" className="bg-[#f8f9ff] dark:bg-[#0b0f1a] py-20 px-6 md:px-16 transition-colors duration-300">
+    <section id="services" className="bg-[#f8f9ff] dark:bg-[#0b0f1a] py-20 px-4 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-14 text-gray-900 dark:text-white">My Services</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
