@@ -54,9 +54,9 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white flex items-center justify-center p-4"
+      className="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white flex items-center justify-center p-4"
     >
-      <div className="bg-white dark:bg-gray-800 shadow-lg rounded-xl w-full max-w-6xl overflow-hidden flex flex-col md:flex-row">
+      <div className="bg-white dark:bg-gray-800 shadow-lg rounded-xl w-full max-w-7xl overflow-hidden flex flex-col md:flex-row">
         {/* Left Section */}
         <div className="bg-black text-white w-full md:w-1/3 p-8 flex flex-col justify-between">
           <div>
