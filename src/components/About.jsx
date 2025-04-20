@@ -5,7 +5,7 @@ function About() {
   return (
     <section
       id="about"
-      className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 py-10 md:py-16  px-4 sm:px-6 lg:px-16"
+      className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 py-10 px-4"
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2  ">
         {/* Image - appears first on large screen, second on small screen */}

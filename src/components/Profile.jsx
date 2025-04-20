@@ -10,7 +10,7 @@ import profileImg from "../assets/img/profile.png";
 
 function Profile() {
   return (
-    <section id="profile" className="bg-white dark:bg-gray-900  md:py-16 px-4 sm:px-6 lg:px-20">
+    <section id="profile" className="bg-white dark:bg-gray-900  md:py-16 px-4 ">
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12">
         {/* Text Content */}
         <div className="md:w-2/3 space-y-4">
