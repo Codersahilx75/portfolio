@@ -5,4 +5,62 @@
 
 html {
   scroll-behavior: smooth;
+} 
+
+
+.service-card {
+  position: relative;
+  overflow: hidden;
 }
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: var(--hover-bg);
+  transition: left 0.4s ease-in-out;
+  z-index: 0;
+}
+
+.service-card:hover::before {
+  left: 0;
+}
+
+.service-card .content {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.service-card:hover .icon-wrapper {
+  animation: rotate360 0.8s cubic-bezier(0.45, 0, 0.55, 1) both;
+}
+
+
+/* Keyframes for infinite rotation */
+@keyframes rotate-infinite {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply infinite rotation to the icons */
+.rotate-infinite {
+  animation: rotate-infinite 5s linear infinite; /* Adjust the speed of rotation here */
+}
+
+

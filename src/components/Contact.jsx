@@ -54,9 +54,14 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white flex items-center justify-center px-4 pb-4"
+      className="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white flex flex-col items-center justify-center px-4 pb-4 pt-8"
     >
-      <div className="bg-white dark:bg-gray-800 shadow-lg rounded-xl w-full max-w-7xl overflow-hidden flex flex-col md:flex-row">
+      {/* Centered Heading */}
+      <div className="w-full text-center mb-6">
+        <h2 className="text-4xl font-bold">Contact Us</h2>
+      </div>
+
+      <div className="bg-white dark:bg-gray-800  rounded-xl w-full max-w-7xl overflow-hidden flex flex-col md:flex-row">
         {/* Left Section */}
         <div className="bg-black text-white w-full md:w-1/3 p-8 flex flex-col justify-between">
           <div>
@@ -73,7 +78,7 @@ function Contact() {
               </div>
               <div className="flex items-start space-x-3">
                 <FaMapMarkerAlt className="mt-1" />
-                <span>Surat,Gujarat,India</span>
+                <span>Surat, Gujarat, India</span>
               </div>
             </div>
           </div>

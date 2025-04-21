@@ -14,24 +14,19 @@ const projects = [
     link: "https://bitcoin-seven-xi.vercel.app/",
   },
   {
-    name: "Portfolio Website",
-    image: project2,
-    link: "https://newproject-hi2c.vercel.app/",
-  },
-  {
     name: "Dexon Website",
     image: project3,
     link: "https://dexonapp02.vercel.app/",
   },
   {
-    name: "Text Web",
-    image: project4,
-    link: "https://my-app-lelx.vercel.app/",
-  },
-  {
     name: "Itech Web",
     image: project5,
     link: "https://itech-test-lime.vercel.app/",
+  },
+  {
+    name: "Text Web",
+    image: project4,
+    link: "https://my-app-lelx.vercel.app/",
   },
   {
     name: "E-commerce",
@@ -47,6 +42,11 @@ const projects = [
     name: "Bitcoin",
     image: project1,
     link: "https://bitcoin-seven-xi.vercel.app/",
+  },
+  {
+    name: "Portfolio Website",
+    image: project2,
+    link: "https://newproject-hi2c.vercel.app/",
   },
 ];
 
