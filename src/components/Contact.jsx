@@ -32,23 +32,29 @@ function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus(null);
-
-    const result = await sendMessage(formData);
-
-    if (result.success) {
-      setSubmitStatus("success");
-      setFormData({
-        firstName: "",
-        lastName: "",
-        email: "",
-        phone: "",
-        message: "",
-      });
-    } else {
+  
+    try {
+      const result = await sendMessage(formData);
+  
+      if (result.success) {
+        setSubmitStatus("success");
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+      } else {
+        setSubmitStatus("error");
+        console.error("Error details:", result.error);
+      }
+    } catch (error) {
       setSubmitStatus("error");
+      console.error("Submission error:", error);
+    } finally {
+      setIsSubmitting(false);
     }
-
-    setIsSubmitting(false);
   };
 
   return (
