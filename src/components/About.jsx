@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/img/about1.jpg";
+import aboutImg from "../assets/img/new.jpg";
 
 function About() {
   return (
@@ -41,7 +41,7 @@ function About() {
               </a>{" "}
               who specializes in MERN stack development (React.js & Node.js). I
               bring both technical and visual aspects of digital products to
-              life with a love for UX, pixel-perfect design, and clean,
+              life with a love for UI-UX design, and clean,
               performant code.
             </p>
             <p>
@@ -58,15 +58,12 @@ function About() {
             </p>
 
             <ul className="list-disc list-inside text-sm sm:text-base space-y-1">
+               <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center lg:text-left">Education</h2>
               <li>B.Sc in Mathematics</li>
               <li>M.Sc in Information Technology</li>
-              <li>Full-time freelancer</li>
+              
+           
             </ul>
-
-            <p>
-              One last thing—I'm available for freelance work, so feel free to
-              say hello! I promise I don’t bite <span>😉</span>
-            </p>
           </div>
         </div>
       </div>

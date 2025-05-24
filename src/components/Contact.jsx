@@ -76,7 +76,7 @@ function Contact() {
             <div className="space-y-6 text-sm">
               <div className="flex items-center space-x-3">
                 <FaPhone />
-                <span>+91 1234567890</span>
+                <span>+91 9510248209</span>
               </div>
               <div className="flex items-center space-x-3">
                 <FaEnvelope />
@@ -84,7 +84,7 @@ function Contact() {
               </div>
               <div className="flex items-start space-x-3">
                 <FaMapMarkerAlt className="mt-1" />
-                <span>Surat, Gujarat, India</span>
+                <span>Junakakrapar,Mandvi,Surat, Gujarat, India,394160</span>
               </div>
             </div>
           </div>

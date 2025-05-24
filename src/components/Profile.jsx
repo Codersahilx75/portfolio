@@ -8,7 +8,7 @@ import {
   Twitter,
   Linkedin,
 } from "lucide-react";
-import profileImg from "../assets/img/profile.png";
+import profileImg from "../assets/img/new.jpg";
 
 gsap.registerPlugin(TextPlugin);
 
@@ -61,9 +61,7 @@ function Profile() {
             I'm a MERN stack developer (<strong>React.js</strong> &{" "}
             <strong>Node.js</strong>) with a focus on creating (and occasionally
             designing) exceptional digital experiences that are fast,
-            accessible, visually appealing, and responsive. Even though I have
-            been creating web applications for over 7 years, I still love it as
-            if it was something new.
+            accessible, visually appealing, and responsive. 
           </p>
 
           {/* Location and availability */}

@@ -1,4 +1,4 @@
 // src/config/apiConfig.js
-const API_BASE_URL = import.meta.env.VITE_BACKEND_URL;
+const API_BASE_URL = import.meta.env.VITE_FRONTEND_URL;
 
 export default API_BASE_URL;
